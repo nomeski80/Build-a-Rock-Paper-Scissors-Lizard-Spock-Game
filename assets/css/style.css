@@ -21,3 +21,25 @@ flex-column {
 .hidden {
     display: none;
 }
+
+.modal {
+    display: none;
+}
+
+.rules-btn {
+    border: 1px solid hsl 217 16% 45%;
+    padding: 5px, 25px;
+    border-radius: 5px;
+    position:absolute;
+    right:20px;
+    bottom:20px;
+    cursor: pointer;
+    background:linear-gradient(to left, #fff 50%) ;
+    background-size: 250% 100%;
+    background-position: right, bottom;
+
+}
+.rules-btn:hover {
+    background-position: left, bottom;
+    color: hsl(214, 47%, 23%);
+}
